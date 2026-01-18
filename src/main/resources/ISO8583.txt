@@ -1,0 +1,112 @@
+Di=2026-01-0STO1:14342.184-0800 | AppId-R4 |AppInst=rdvra97a0188:WF_VDPS_ISSSIG FIT/SIM: 202601050114420168+00000000006333423 LINN LEG Ia=WETALEgy
+|TxAct=Request Received | Level=INFO | ClsName=com.authentic.authorisation.WF_VDPS_ISSSIG_FIT_SIM.EndpointTxnLogProcessor|Tid=ListProc-Qosil0N
+|ConnInfo=connection: /rdvra97a0188/WF_VDPS ISSSIG FIT SIM/WE _VDPS_ISSUER_SIG/WF_VDPS_ISSS § 5an 2 | FIT_SIM/WF_VDPS_ISSSIG_SIM F1T$231|AppBody=[UID:rdvra97a0l
+B8:WF_VDPS_ISSSIG_FIT_SIM:202601050114420168:000000000063334231, Message Timestamp: 2026-01-05 01:14:42,168] [ATC Result Code i ae
+[AVS Cvv2 PIN MICR Data : ARY]
+[Acquirer BIN : 12345678901]
+[Acquirer Network Id : VSN]
+[Acquirer Trace Data : 401099412345678901631218010994T316312091020995 [25
+[Acquiring Institution Identification Code : 59000002972]
+[Additional Data Indicator : ]
+[Additional Data, National : X10401234567890123456709012345678901234567890CV04003020199991072123456789012345601ipaddrOlcRO0212]
+[Additional Data, private Acquirer : VD044e000610cNA9942340112909835123456789012345678]
+[Additional POS Information Terminal Entry Capability : ]
+[Additional POS Information Terminal Type : ]
+[Additional Transaction Elements : 00 ]
+[Agent Unique ID : IDENT]
+[Amount, Transaction : 000000000200]
+[Bitmap : 10110010001110100100010000000001'101010001110001110000000011000100000000000000000000'
+[Byte Map : 00110011]
+[CAM Reliability Indicator = 0]
+[Card Acceptor City : BATTLE LAKE ]
+[Card Acceptor Country : US]
+[Card Acceptor Identification Code : teedestesiesx Name Address : MEL'S LUCK’ & LE]
+[Card Acceptor Region: ]
+[Card Acceptor Terminal Identifiéation
+[Card Level Result Code: ]
+[Cardholder Bill Fee Type: ]
+[Country Code : 840]
+[County Code : 000]
+[Currency Code, Transaction : 840]
+[Date, Local Transaction : 0105]
+[Date, Settlement : 0105]
+[Date, Transmission : 0105]
+[Enabler Verification Value
+[Fallback Indicator : 0]
+[Format ode =: 4]
+[Forwarding Institution Identification Code
+[From Account Type : 00]
+[1SA Indicator : ]
+[Info Text : 20
+[Institution Merchant Consumer Name
+[MTI : 0200]
+[Merchant Identifier : MERCHANT]
+[Merchant Type : 7841]
+[Merchant Volume Indicator: ]
+[Multiple Clearing Sequence Count : 5]
+[Multiple Clearing Sequence Number : 2]
+[National Point-of-Service Condition Code : 10091008010]
+[National Point-of-Service Geographic Data 1700060181 [840]
+[Original Transaction Identifier ; Test DATA F127]
+[PAN Entry Mode : 06]
+[PIN Entry Capability : 0]
+[Partial Authorization Indicator : Yd
+[Point of Service Entry Mode : 060]
+[Postal Service Code : 60181 J
+[Pentation Type Authorized : 0]
+[Clearing Sequence Count ; 5 ; 7
+[Clearing Sequence Number : 2]
+[National Point-of-Service Condition Code
+[National Point-of-Service Geographic Data
+[Original Transaction Identifier
+[PAN Entry Mode : 06]
+[PIN Entry Capability : 90]
+[Partial Authorization IndicStéF!i!'¥]
+[Point of Service Entry Mode : 060]
+[Postal Service Code : 60181 ]
+[Presentation Type Authorized : 0]
+[Presentation Type Card Present : 1]
+[Presentation Type Card Retn : 0]
+[Presentation Type
+[Private y-Defi
+[Processing Flags: Y ]
+[Retrieval nce Number :/377690285247]
+[Retrieval reference number -Acq Trace Data
+[Risk Data : NNS3NN1Y
+[Security Condition : 8]
+[Special Transaction Indicator :/]]
+[State Code : 17]
+[System Trace Audit Number’: 1542066]
+[System trace audit number - Trace datal/!010994]
+[Terminal Class Attended By : 1]
+[Terminal Class Location : 0]
+[Terminal Class Operated By : 0] '
+[Terminal Entry Capability Mode : 0] >
+[Terminal Type : 01]
+[Time, Local Transaction ? 011442]
+[Time, Transmission : 011442]
+[transaction Identifier : 316312091020995]
+[transaction Type : 00]
+[Retrieval reference number -Acq
+[Risk Data : NNS3NN1Y
+[Security Condition : 8]
+[Special Transaction Indicator #] ]
+[State Code : 17]
+[System Trace Audit Number"? 7542066]
+[System trace audit number - Trace
+[Terminal Class Attended By :
+[Terminal Class Location : 0]
+[Terminal Class Operated By : 0]
+[Terminal Entry Capability Mode : 0]
+[Terminal Type : 01]
+[Time, Local Transaction : 011442]
+[Time, Transmission : 011442]
+[To Account Type : 00]
+[Track 2 Data : *#***s+s¥FRUREAAEAEARNER AREAS AEAEH]
+[Transaction Identifier : 316312091020995]
+[Transaction Type : 00]
+[Transmission Date and Time? 0105011442]
+[Visa Authorization Characteristics Indicator : T]
+[WF_VDPS_ISSSIG FIT_SIMSEML ID$ : 24887015]
+[XITag : 1234567890123456789012345678901234567890]
+[Large Private Data = 006407201029V001001301716744151155164820503012114. 2. 24.149040023926002992 7002010085 00900004506]
