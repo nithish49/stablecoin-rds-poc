@@ -1,5 +1,5 @@
 package com.example.stablecoin.controller;
-import com.example.stablecoin.integration.VdpsIntegrationService;
+import com.example.stablecoin.service.VdpsIntegrationService;
 import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/vdps")
