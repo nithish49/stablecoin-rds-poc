@@ -4,6 +4,7 @@ import com.example.stablecoin.model.CardTransaction;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Service
@@ -22,12 +23,14 @@ public class SettlementService {
     @Async
     public void settle(CardTransaction tx){
         rest.burn(tx).subscribe(resp -> {
+            BigDecimal amount = tx.getAmount();             // e.g. 2.00
+            long units = amount.movePointRight(2).longValue();
             CustomerLedger c = new CustomerLedger();
             c.customerAccountId = tx.getCustomerAccountId();
             c.transactionDate = tx.getTransactionDate();
             c.completionCode = tx.getCompletionCode();
             c.transactionType = tx.getTransactionType();
-            c.amount = tx.getAmount();
+            c.amount = new BigDecimal(units);
             c.description = tx.getDescription();
             c.linkedDcNumber = tx.getLinkedDcNumber();
             c.networkId = tx.getNetworkId();
@@ -37,7 +40,7 @@ public class SettlementService {
             s.switchAccountGl = tx.getCustomerAccountId();
             s.effectiveDate = LocalDate.now();
             s.transactionType = "Credit";
-            s.amount = tx.getAmount();
+            s.amount = new BigDecimal(units);
             s.description = "Net Settlement";
             switchRepo.save(s);
         });
